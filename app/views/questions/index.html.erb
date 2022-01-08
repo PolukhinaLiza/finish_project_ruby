@@ -1,0 +1,4 @@
+<h1 class="mb-4"><%= t('menu.questions') %></h1>
+<%= link_to t('questions.index.new'), new_question_path, class: 'btn btn-primary btn-lg' %>
+
+ <%= render @questions %>
